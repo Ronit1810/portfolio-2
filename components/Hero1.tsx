@@ -23,7 +23,7 @@ const Hero = () => {
 
                 {/* below div is for black circle behind the image */}
                 <div className=' animate-show absolute top-[150px] rounded-full w-72 h-72 md:w-80 md:h-80 bg-gradient-to-bl from-blue-400 bg-black border-[25px] border-gray-500'></div>
-                <Image className=' animate-moveDT p-10 md:p-5 absolute top-[0px]' src='/charactar.png' alt='Charactar' width={310} height={280} />
+                <Image className=' animate-moveDT p-10 md:p-5 absolute top-[0px]' src='./charactar.png' alt='Charactar' width={310} height={280} />
                 <div className=' flex gap-3 md:gap-5 absolute bottom-12 md:bottom-20'>
                   <h2 className=' animate-moveLR text-[40px] sm:text-5xl md:text-7xl font-extrabold font-main'>RONIT</h2>
                   <h2 className=' animate-moveRL  text-[40px] sm:text-5xl md:text-7xl font-extrabold font-main'>PATEL</h2>
@@ -57,7 +57,7 @@ const Hero = () => {
             {/* </div> */}
             
         </div>
-        <Image className=' animate-moveTD' src='/bg.png' alt='img' fill sizes='100vw' /> 
+        <Image className=' animate-moveTD' src='./bg.png' alt='img' fill sizes='100vw' /> 
         
     </div>
   )
