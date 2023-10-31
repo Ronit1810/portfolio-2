@@ -2,6 +2,7 @@
 
 import { getMainDate } from '@/Services'
 import About from '@/components/About'
+import Footer from '@/components/Footer'
 import Hero from '@/components/Hero1'
 import Projects from '@/components/Project'
 import Skills from '@/components/Skills'
@@ -29,6 +30,7 @@ export default function Home() {
       <About />
       <Skills />
       <Projects project={myProject} />
+      <Footer />
     </div>
   )
 }
