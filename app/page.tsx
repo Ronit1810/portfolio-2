@@ -1,5 +1,6 @@
 import About from '@/components/About'
 import Hero from '@/components/Hero1'
+import Skills from '@/components/Skills'
 import Image from 'next/image'
 
 export default function Home() {
@@ -7,6 +8,7 @@ export default function Home() {
     <div>
       <Hero />
       <About />
+      <Skills />
     </div>
   )
 }
