@@ -3,7 +3,8 @@ import Link from 'next/link'
 import React from 'react'
 import {AiOutlineLinkedin, AiOutlineInstagram, AiOutlineGithub, AiOutlineMail, AiOutlineFacebook} from 'react-icons/ai'
 import character from '../public/charactar.png'
-
+import bgimage from '../public/bg.png'
+ 
 const Hero = () => {
   return (
     <div className=' flex justify-center items-center w-full min-h-screen'>
@@ -58,7 +59,7 @@ const Hero = () => {
             {/* </div> */}
             
         </div>
-        <Image className=' animate-moveTD' src='./bg.png' alt='img' fill sizes='100vw' /> 
+        <Image className=' animate-moveTD' src={bgimage} alt='img' fill sizes='100vw' /> 
         
     </div>
   )
