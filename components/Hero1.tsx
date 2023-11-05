@@ -14,7 +14,6 @@ const Hero = () => {
             {/* below div is for brand section */}
             <div className=' absolute flex justify-between w-full top-3 left-8 xl:top-4 xl:left-10 text-3xl'>
                 <h1 className=' text-xl md:text-3xl font-heading'>Rp.</h1>
-                <span className=' flex md:hidden text-xs font-medium hover:bg-transparent hover:text-black cursor-pointer hover:border-sky-900 hover:border-[1px] bg-sky-900 rounded-lg px-6  justify-center items-center text-white mx-10 py-2'><Link href='https://drive.google.com/file/d/1wA7cf7xY_81M4ID4ikcdXpmMXpFkCA8b/view?usp=drive_link'>RESUME</Link></span>
             </div>
 
 
@@ -27,6 +26,7 @@ const Hero = () => {
                 {/* below div is for black circle behind the image */}
                 <div className=' animate-show absolute top-[150px] rounded-full w-72 h-72 md:w-80 md:h-80 bg-gradient-to-bl from-blue-400 bg-black border-[25px] border-gray-500'></div>
                 <Image className=' animate-moveDT p-10 md:p-5 absolute top-[0px]' src={character} alt='Charactar' width={310} height={280} />
+                <Link className='flex md:hidden absolute top-4 right-2 text-xs font-medium px-3 py-1 border-[1px] border-black rounded-lg hover:bg-sky-900' href='https://drive.google.com/file/d/1wA7cf7xY_81M4ID4ikcdXpmMXpFkCA8b/view?usp=drive_link'>RESUME</Link>
                 <div className=' flex gap-3 md:gap-5 absolute bottom-12 md:bottom-20'>
                   <h2 className=' animate-moveLR text-[40px] sm:text-5xl md:text-7xl font-extrabold font-main'>RONIT</h2>
                   <h2 className=' animate-moveRL  text-[40px] sm:text-5xl md:text-7xl font-extrabold font-main'>PATEL</h2>
