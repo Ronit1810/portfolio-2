@@ -14,7 +14,7 @@ const Footer = () => {
             <Link href='https://www.instagram.com/1810_ronitpatel?igshid=OGQ5ZDc2ODk2ZA%3D%3D'><AiOutlineInstagram className=' cursor-pointer hover:text-sky-800' /></Link>
         </div>
         <div className=' flex flex-col justify-center md:flex-row md:w-full md:justify-between md:px-20 xl:px-40 items-center absolute bottom-2'>
-            <span className=' text-gray-600'>© 2023 Ronit Patel.All rights reserved.</span>
+            <span className=' text-gray-600'>© 2023 Ronit Patel. All rights reserved.</span>
             <span className=' text-gray-600'>ronitpatel1810@gmail.com</span>
 
         </div>
