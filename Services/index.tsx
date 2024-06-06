@@ -7,6 +7,7 @@ export const getMainDate = async () => {
         projects {
           about
           createdAt
+          deployed
           id
           link
           name
